@@ -1,10 +1,10 @@
 
 import pandas as pd
 import hemmeligefiler
-
-ipadresse = hemmeligefiler.ipadresse
-brugernavn = hemmeligefiler.brugernavn
-brugerpw = "alle1sql2specialister!"
+#herunder skal der indsættes ip adresse og kode til lokale sql server
+ipadresse = "dinIpAdresse"
+brugernavn ="root"
+brugerpw = "hemmeligkode"
 mindatabase = "northwind"
 #connecte til lokal server og lave mysql dataarbejde på denne
 
