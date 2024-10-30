@@ -1,4 +1,4 @@
-Dette program bruger følgende pakker og metoder i python
+AnalyserNorthwind er mit main program som anvenderfølgende pakker
 
 mysql.connector -> som connector til en kørende (lokal) sql database og indlæser i 
 
