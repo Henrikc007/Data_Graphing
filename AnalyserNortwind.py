@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 
 #men jeg prøver først at bruge en pandas import funktion til hele order tabellen
 #henter først tabel med ordre
-print(hentedata.get_value_from_json("secrets.json","db","ipadresse"))
+
 #Opsætning af diverse dataframes
 northwinddataframe=hentedata.fetchDataframeRestraint("Orders","all","hmm")
 #herefter tabel med ordredetails
