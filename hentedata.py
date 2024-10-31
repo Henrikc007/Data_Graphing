@@ -1,11 +1,11 @@
 
 import pandas as pd
-import hemmeligefiler
+import hemmeligefiler as mineHemmeligheder
 #herunder skal der indsættes ip adresse og kode til lokale sql server
-ipadresse = "dinIpAdresse"
-brugernavn ="root"
-brugerpw = "hemmeligkode"
-mindatabase = "northwind"
+ipadresse = mineHemmeligheder.ipadresse
+brugernavn = mineHemmeligheder.brugernavn
+brugerpw = mineHemmeligheder.brugerpw
+mindatabase = mineHemmeligheder.mindatabase
 #connecte til lokal server og lave mysql dataarbejde på denne
 
 #jeg skal lave secret fil, hvor mine koder er indlejret
